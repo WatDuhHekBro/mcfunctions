@@ -1,0 +1,3 @@
+BotA but in an RPG form (not a grand RPG, just a world that isn't a PvP arena). Here I'll also experiment with AI (a bunch of conditional states). I'm way more focused on the technical side rather than the building side, and I'll have primitive buildings unless I get a good builder who sees the potential in my ideas (which I won't be giving away this time).
+
+As for conditions/activations, I'll have the typical offhand, drop, and sneak switches, but I'll also have right click if possible (by very simple Skripting). Of course, a PvP arena will be good for all this, but it's not the main thing as there's still a world to explore.
