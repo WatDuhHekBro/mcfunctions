@@ -1,0 +1,19 @@
+Welcome to your guide on how these horrifying monsters work!
+
+[Installation]
+1. Drag the mcfunction files into "world/data/functions/wdhb", you'll have to create the folder "wdhb" inside the folder "functions".
+2. (Only needed if the server is already up) Once the files are there, do /minecraft:reload.
+3. Once the files are loaded into the world, do /function wdhb:init.
+
+[Information]
+- All silverfish are parasites, not just targeted ones.
+- Parasites can infected nearly every mob, making it quite virulent.
+- Every 5 minutes, a zombie (if present) and a squid (if present) will be randomly infected. These will be the patient zeros, so these parasites aren't just stuck to strongholds.
+- The infection period lasts for 2 minutes. Every 30 seconds, the symptoms gradually become more severe, and in the last 15 seconds before the new parasites are about to burst, particles can be seen radiating off of the host.
+- Once the new parasites burst from the host, the host is killed via an explosion and 5 parasites are released explosively.
+- Parasites that do not find a host will die after 2 minutes.
+- There exists a cure, albeit a quite expensive one. A golden apple, doesn't matter if it's normal or a god apple, will cure the player of a parasitic infection (through magic probably).
+
+
+
+Made by WatDuhHekBro
