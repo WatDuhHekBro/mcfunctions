@@ -1,0 +1,13 @@
+Decimals being shown in action bar.
+Every second/twenty ticks, remove a second from the total. Every two ticks, remove a millisecond/tenth.
+The format is (sec).(mil) until you can cast that ability again.
+It will not be 1 tick because .05 and .00 is clunky and also there's no way to force a zero.
+
+
+
+DQ6 Battle Noteblocks
+Mainly iOS version since it's fast paced, but I could use the style/drum setup of the SNES version.
+Add a separate scoreboard objective for lobby music and battle music.
+Lobby Music: [0: Enabled and actively playing], [1: Disabled], [2: Disabled but will play later]
+Battle Music: [0: Enabled, 1: Disabled]
+While lobby music is ongoing, battle music always starts exactly the same.

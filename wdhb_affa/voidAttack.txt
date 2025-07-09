@@ -1,0 +1,6 @@
+/execute @a[lm=9] ~ ~ ~ /tp @a @r[type=!Player,r=8]
+/execute @a[lm=9] ~ ~ ~ /execute @e[type=!Player,r=1] ~ ~ ~ /tp @p ~ ~3 ~
+/execute @a[lm=9] ~ ~ ~ /playsound minecraft:entity.endermen.teleport neutral @a ~ ~ ~ 1 1
+/effect @a[lm=9] strength 3 0 true
+/effect @a[lm=9] resistance 3 1 true
+#Details: 13 Energy

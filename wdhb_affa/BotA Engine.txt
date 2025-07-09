@@ -1,0 +1,233 @@
+- Maybe in the far future add a ranking system, so similar ranks fight against each other. It'll be continuous, like League. E rank fights E rank, and by winning, you gain points to D rank, and you fight people from D rank.
+- Maybe add a spectate above option.
+- Changes HAVE to be made since defenses are too weak and weapons are too strong. Add a second health bar and armor w/o head.
+- I could add a currency in the future, maybe for hat cosmetics. Also, you could bet on who wins, maybe even based on their win rate. You cannot bet during a battle, only during the queue time.
+- The lock in process will work like this: Player walks in, gets class, then tps everyone to the center that's near there. Then has a glass wall that'll only disappear if changes classes.
+- Make cooldowns show seconds and milliseconds. Cooldowns will have a priority over mana/energy messages. ([Ability] can be activated in [time].)
+* 2m for all matches of. If one of the players don't die within this time frame, it'll be a stalemate.
+- This would remove all conflicts, and make it truly 1v1. Given 15 seconds to choose, if a class isn't chosen, a random one will be chosen for the user.
+- Add a queue system, people line up to fight, then it subtracts 1 score from everyone so 2 players get in.
+- Red vs blue, with gold spectating in the background.
+- Make a video compilation of all the moves, with a test subject, so the audience wouldn't have to wait on something like a training room, and they could see in detail what the ability is about (in case they don't get what it does). This'll only work if I can find a proper video editor.
+- Maybe the lobby music here will be DQ4: Colosseum Backstage. Battle music will probably be fast paced, such as DQ3 or DQ6 battle themes.
+- Cosmetics for BotA will probably be simple: Hats, they don't affect gameplay, unlike particles, and are not going to lag your game.
+- Patch Notifications will work similarly to the welcome messages. This time though, it'll just be removed and re-added whenever a new patch comes out. There'll still be welcome messages along with it. Add a link to discord that'll show more information.
+- As the 2 players choose their classes, the music is silent. It's still running, but others cannot hear it. There's just ticking until the battle music.
+- Scoreboard: (Everyone) Kills leaderboard when the game is not active. Timers when the game is about to start and during the game.
+* For sneak abilities that refresh (like the Vampire's Take Flight), show when the ability is ready in the action bar. Actually, for any ability that has a cooldown, show when it's ready (later).
+
+[Warlock (Stick & Lever)]
+Drain (Drop 2, No cost, 25s): Charges up, then drains all enemies of health and mana/energy if they're not in range of the user, use [rm=5] for this one.
+New Drain (Drop 2, Toggle 10m/s): Charges up, then starts draining all enemies in an minimum radius of constant health.
+The drain could be a trap. Or the trap could even be just a simple halt which also boosts the effectiveness of the warlock's sneak.
+Overload (Drop 1, 30 Mana, 15s): Does a sudden explosion (Has resistance), then removes all other cooldowns. Also has a visual indicator of when the ability is available, steaming head.
+Chain Explosion: Gets an egg then shoots the no gravity thing in any direction, spawning explosions.
+Zap (Offhand 1, 20 Mana, 5s): Summons a powerful lightning bolt onto the closest enemy. Zap stuns for 2 seconds (Fall "bone break" effect), and drains them of some mana.
+Passive (Heal Spell): Every 10 seconds, the next spell cast will heal the user.
+Sacrifice: Takes a lot of damage to deal increased damage and also regenerate mana faster.
+
+[Rogue]
+Counter: Drops the user's weapon, then if they take damage, disarm all nearby enemies in a certain radius. (.5 second frame)
+* Make Counter a Sneak, Dashing Tempest an Offhand, and Wind Slash a Drop.
+Counter (Sneak Edit): Refreshes every 5 seconds. Still drops the weapon for 1 second, just like the original.
+Wind Slash (Offhand 2): Gives the sword knockback so that the next attack will push the enemy back far and do extra damage. Also does wind particles by checking for damage dealt.
+
+[Ninja, Diamond Sword]
+Waypoint (Drop): Drops a waypoint where the player is and then if the user can get close enough to the target in a few seconds, you'll immediately be substituted for an explosion. If reactivated right afterwards, the user will teleport to the explosion site, and lays down a hidden trap that'll blind the target for a short time where the user was previously at. If the enemy steps on your waypoint though, their ability will be deactivated and the user will be stunned and disarmed.
+Void Attack (Offhand): Lays down a hidden trap that'll blind the target and stun them for a short time, and then teleports above the nearest player, once they get close to the victim, the victim will be momentarily blinded and momentarily disarmed. After this, there's a few second timeframe where the user can reactivate the ability to teleport back to the shadow trap, removing the shadow trap itself, unless time runs out or unless the shadow trap is activated.
+Passive: Speed I & Resistance II after casting an ability. Also restores lots of mana (maybe even full) when someone steps on a shadow trap.
+(Will make second item for more trap manuvering, 2 abilities is not enough.)
+Pursuit (Sneak, 5 energy per second [4 ticks per energy]): Makes the user invisible and very fast (to counter the sneaking speed). If the user stops right at the target, the target will be momentarily blinded.
+
+[Barbarian]
+Addition to intimidate?: Add some absorption into the mix. This will then be not only a slowing tactic, but an offensive one.
+New Berserk (Drop): Jumps up into the air and if the user lands near an enemy, they will be stunned. Then activates the rest of Berserk.
+Charge (Sneak): Becomes immobile while charging but every few seconds, will increase the charge level so the next hit will deal more damage (strength).
+
+[Hunter]
+Extra Power (Sneak): Powers up the bow for the next shot (Power II). Refreshes every 10 seconds.
+Sneak: Hunter's Trap (Refreshes every 10 seconds.)
+
+Dragon Warrior [Stone Sword, Fire Aspect]
+Incinerator/Judgement (Drop)[10 Rage]: Float upwards into invincibility, then uses armor stand raycasting to shoot a stream of fire for the next few seconds.
+Dragon's Breath (Offhand)[5 Rage]: Uses the armor stand method to slowly spew out fire which exhausts enemies hit. It could also be a burst fireball, and in that case, it will exhaust the enemy, nauseate them, then flip them around 180.
+*These two abilities could just be fused for another ability. Basically, there would be a constant stream of fire type of ability.
+Passive (Endurance): As health decreases, resistance and strength increases.
+Passive (Dragon's Rage): Every time they're damaged, they gain rage points. These can be used to cast abilities.
+(No second item)
+Sneak (Fire Trail, 2 rage per second): As they walk around, they will leave a burning trail which damages any who step in the way. This also means that the user has permanent fire resistance, and speed will be given for this ability.
+Danger Zone ()[No Cost]: Sacrifices health for rage and strength.
+
+Psychic [Random Items]
+Mind Control/Trance: Use villager control method and teleport the player towards the villager for a few seconds. Or...
+Minion: Use same villager control method to control a fast moving minion that damages the enemy. This minion would have its own set of abilities, serve as a shield to the psychic, and would send the psychic back once it's destroyed. This minion would still have a cooldown of its own, even if the psychic has enough mana. This minion wouldn't have a mana system, if it did, it would be different.
+Phantom Grip: Teleports nearest target up into the air and disarms them, which also disorients them, meaning that they'll be rotated 180.
+Torment: Suspends the target in the air, then after a few seconds, forcefully drags them downward causing an explosion.
+Freezing Rays: (Shoots snow in all directions) Suppresses any positive effects the enemy has, like strength, speed, and resistance, for 10 seconds. (Think, Zoma.)
+*Probably going to turn this into Neutralizing Rays, then give Freezing Rays to Frost Mage with the change of completely freezing all enemies within a radius.
+Passive (Mana Gift): Every 5 seconds, you will get extra mana.
+Sneak (Meditate): Every few seconds of not moving, you start slowly regenerating health and mana.
+
+Vampire [Gold Sword]
+Blood Hunter (Drop)[10 mana]: Becomes invisible and gains massive speed (also removing wings and sword in the process) for a few seconds. If the user gets near the enemy, immediately end the invisibility and speed, then disarms the enemy. After the invisibility period ends, user gets strength and jump boost to glide towards the enemy.
+Cursed Chain (Offhand)[5 mana]: Prepares (1 sec) and throws a chain using the armor stand raycasting method. The user will shine in red particles they won't notice. The user will see the chain blood particles but others cannot see it. After 5 seconds, the ability will end. If it hits the target, they will be stunned and disarmed for 4 seconds.
+Passive (Bloodthirst): Starts out with 0 mana, then as the user steals the victim's health, the user also gains 1 mana per hit. After depleting all mana, the user will start to feel weakened, so speed II is given. If the user has mana, they will lose speed II but will gain resistance I. Maximum of 10 mana.
+*The elytra would be named "Vampire Wings" and would have a hidden curse of binding.
+(No second item)
+Sneak (Take Flight): Leaps up into the air to fly towards the enemy. Refreshes every 10 seconds.
+
+
+
+Pyromaniac [Blaze Rod and Blaze Powder, both have Fire Aspect]
+Sneak (Super Charge [Ability: Magnitude x]): The longer the user is charged, the more effective their abilities are. Charging makes them immobile, and getting attacked will reset their charge. Charging is a creeper hissing sound or a lava extinguish sound. The user will be told when they reach a new magnitude.
+Hunter Missile (Drop 1, 9 energy, 10s): Summons a homing missile (wolf/sheep contraption) that will exhaust the enemy. (Targets the nearest enemy. This is because of restricting possible sabotage with only two teams. Maybe not use monsters with tracking everything.)
+Explosive Defense (Offhand 1, 5 energy, 20s): Straps/Binds on an explosive that'll detonate if you are attacked. There's a clear visual indicator. The explosive will remain active for 5 seconds.
+Wall of Fire (Drop 2, 7 energy, 15s): Similar to the Wall of Ice, it will send a wall of fire down rapidly, burning anyone and slowing them who stand in the way.
+Magic Rune (Offhand 2): The user places an invisible rune/trap that will explode and restore some of your mana whenever an enemy steps on it.
+Passive (Ring of Fire): Has a ring of fire that surrounds the mage and burns nearby enemies, but only when low on health. The user also gets speed during this time.
+Rocket Dash: Dashes with the power of explosions, followed by a final major explosion at the end.
+Rocket Pulse (Passive): Every few seconds, summons a small explosion to enemies within 5 blocks. There will be a warning sign 2 seconds beforehand.
+
+
+
+Frost Mage [Ice and ]
+Ice Spike/Glacier: Sets an armor stand that waits for 1 second at the enemy, then spikes up rapidly, trapping and suffocating any enemies inside, with an initial damage with instant harming.
+Ice Spike2 (Drop 2): You set spike locations passively every 5 seconds, then can activate it all at once slowing and harming enemies who come near.
+Wall of Ice (Drop 1): Chooses 1 of 4 directions to shoot at, then knocks up an ice row of 5 or 7 blocks wide, then knocks those ice blocks forwards with moderate speed. Anyone who is impacted will become very exhausted and receive huge instant harming. The wall of ice will gradually expand outwards.
+Blizzard/Icy Gust (Recast of Wall of Ice) (Offhand 2): Armor stand raycasting, shoots ice in the specified direction and freezes anyone who is caught.
+Passive (Snowfall): Passively leaves behind a 3x3 square of snow. It slows anyone else who goes on there.
+Sneak (Barrier, 7 mana per second): Encases the user in an ice prison that also teleports all enemies up by 4 blocks. You are also immobile, invulnerable, and rapidly heal during this time.
+Ice Prison (): Replaces the inventory with a snowball, then you can shoot that snowball, once that snowball touches another player, they are frozen in an ice prison.
+
+Fighter [Random Items]
+Iron Fist (Offhand 1): Charges up an attack that will do extra damage and knockback for the next hit.
+Roundhouse/Power Kick (Drop 1): Does a kick that knocks back the opponent (using knockback 4).
+Grab (Offhand 2): Grabs the enemy and throws them up into the air.
+Leap (Drop 2): Takes a leap into the air and if the user lands on the enemy, they get nausea, slowness, and cannot jump for a moment.
+Passive: Strength IV and Speed III and Jump Boost II.
+Sneak: Uses an explosion to hurt the enemy, cooldown of 5 seconds. Spawns a creeper below to hopefully get vertical movement.
+
+Demon Lord (Modeled after Azir) [Wooden Sword or Diamond Axe]
+Barrier: Conjures up a group of uniform soldiers (in a wall formation) to attack and swarm the enemy. They are probably zombies with shields that will shove the enemy back (and damage them). After a few seconds of just pushing back, they break formation and start swarming the enemy. They are pretty weak.
+Rise: Places two armor stands corresponding to where the user and the enemy is, then waits a few seconds, then makes those pop up zombie skirmishers.
+Reinforcements: Spawns a pop up army of medium knights on all 4 sides which attack the enemy.
+Demon Prince: (Similar to Psychic's Trance, but weaker) Embodies the power of a demon prince to escape mortality for a moment. During this time, the demon prince has a simplistic moveset of 2 abilities.
+Passive: Spawns a weak soldier every few seconds. These zombies will probably be immume or be affected by abilities (depending on how it is).
+
+
+
+Barbarian
+Hunter
+Warlock (Releases during the magical update.)
+Rogue
+[Ninja Update]
+Ninja
+
+[The Mythical Trio Update]
+Dragon Warrior
+Psychic
+Vampire
+
+[The Magical Update]
+Pyromaniac
+Frost Mage
+[Fighter Update]
+Fighter
+
+[The Demonic Update]
+Demon Lord
+Demon Chef
+
+
+
+Item: Magic Rod (Magic Chain/Hook)
+Fishing Rod that will do something once it reaches the ground. Maybe teleport. But it'll also act like any other item with 2 other abilities and it'll be the main weapon with sharpness.
+
+Passive: Boiling Blood (Definitely use wood sword)
+Increases strength everytime the attacker attacks 3 times. Kind of like Tryndamere.
+
+
+
+
+
+BotA new class? Demon Chef releases along with Demon King
+
+Uses culinary styled attacks, such as dragging a cooking pot along to roast/boil enemies inside, but also other attacks, like throwing boiling water from the magic cauldron, food traps like pufferfish traps, force feeding: basically healing the enemy but also fattening them making them slower and will have more damage when boiled/roasted in the magic cauldron. Maybe even add a roast ability which sets the enemy on fire. Force feeding could instead be a trap, or ground item that the enemy can choose to eat, action bar reads "you feel fatter by the moment!" The magic cauldron will be increase its capture range based on how fat the victim is. 3 radius if unaffected, 5 if fat 1, 7 if fat 2, 10 if fat3, etc. This actually would also apply to the range of other abilities, like Demon Roast, which increases its radius based on fat level.
+
+The other abilities might hire demon cooking assistants, such as baby zombies who fetch the human as an ingredient.
+
+Cursed Fruit Basket: Uses falling-sand motion method to shoot a basket in a direction that will burst and maybe each individual fruit will explode or do something else.
+
+Sneak: Restores the water level of the cauldron. This is pretty much essential to using Demon Chef because of its use of water and boiling. Also freezes the user in place until they release sneak.
+
+Maybe this along with Demon King will have 6 abilities, 3 items.
+
+
+
+
+
+BotA: Sabotage
+
+Two teams (max players equals that of the amount of classes) gather to fight each other. On each team, classes can only be chosen once, just like League of Legends. The goal is not to kill players, but to destroy/capture command posts/engines, and after all 5 are destroyed, the game ends. (But then again, why would I restrict the classes anyways? They're classes, not characters.)
+
+This is a closed game, so it's queued, unlike BotA: Arena. Players who are capturing command posts are disarmed since they're hacking or destroying the system there. This will probably lead into teamwork as one player defends while the other destroys the command post. After that, there's one final command post you need to destroy, usually at the enemy base. This takes much longer to destroy.
+
+[Map] Prairie/Frontier: On the edge of two rival magic nations, and the command posts are what's keeping the barrier up. The final command post is the enemy's entrance, protected by the others through a barrier.
+
+[Map] Airships: Two airships suddenly crash next to each other, and have begun its auto-repair function. The engines are the command posts, and once they're destroyed, the other team wins. The final command post is the enemy's core engine, protected by the others technologically.
+
+
+
+
+
+Help menu
+
+cyan hashtags followed with gold commands and red descriptions
+
+
+
+
+
+Maybe allow the same class to be chosen twice (rogue vs rogue). This would be done by using monsters and scoreboards. If this works, it could even extent to allowing team games like Sabotage. Here, single target vs multi target would have to be clearly defined. The main idea is to use teams. However, each team would still have to restrict the classes, just like League of Legends, where you can't pick two champions on one team. (From Journal: red2 would affect blue2 but not red3.)
+
+
+
+
+
+My hopes for the BotA Meta
+
+Speedy, High Risk High Reward: These classes have very exploitable weaknesses, but when used right, those weaknesses are covered up. These classes have the highest skill curve.
+
+Tanky, Low Risk Medium Reward: These characters have slower combo games but generally have less weak spots than others. They risk getting combo'd though. These classes have the lowest skill curve and skill cap.
+
+Standard, Medium Risk Medium Reward: These characters have a fair set of options but also a fair set of weaknesses. While they're far from the level of exploitability as in Speedy Meta classes, they cannot hold up their game that well against one, so their few weaknesses can be exploited by those who know those weaknesses.
+
+
+
+
+
+Release Plans
+
+1: Default, 4-5 classes depending on Ninja.
+2: More follow up on my plan, adding all the other classes.
+3: Allowing of multiple classes on the same match, rogue vs rogue. Also adds BotA Sabotage, and if the server has gotten more players, another BotA: Arena arena.
+
+
+
+
+
+
+Text boxes [------]
+could stretch to end of screen w/o hitting new line
+
+
+
+
+
+There'll be separate options for both lobby and battle music, separate objectives. However, the /music command will just turn both of them off. And make an extra switch objective for location, just in case I want to add that in too.
+
+Actually, it might be this: /music disables/enables all music, but also brings up the option to disable lobby or battle music. Maybe even make it a pop-up menu instead of a redirection.
+
+Also, make sure that the players have a way of doing all of the user commands without the commands, like stations throughout the stadium/map.
+
+Future Sabotage Music: DQ4 Battle Theme
