@@ -1,0 +1,121 @@
+groups:
+  player:
+    options:
+      prefix: '&7'
+      default: true
+    permissions:
+    - minecraft.command.teammsg
+    - -minecraft.command.me
+    - -essentials.back
+    - -essentials.back.ondeath
+    - essentials.helpop
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.realname
+    - essentials.rules
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.sudo.exempt
+    - essentials.suicide
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tpacancel
+  builder:
+    options:
+      prefix: '&b&lBuilder&7 '
+    inheritance:
+    - player
+    permissions:
+    - modifyworld.*
+    - essentials.build.*
+    - essentials.gamemode
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
+    - essentials.gamemode.adventure
+    - essentials.gamemode.spectator
+    - essentials.tpa
+    - essentials.tpahere
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.*
+    - essentials.setwarp
+    - essentials.warp.overwrite.*
+    - essentials.delwarp
+    - worldedit.*
+    - citizens.*
+    - holograms.*
+  mod:
+    options:
+      prefix: '&e&lMod&7 '
+    inheritance:
+    - player
+    permissions:
+    - essentials.ban.exempt
+    - essentials.ban.notify
+    - essentials.kick
+    - essentials.kick.exempt
+    - essentials.kick.notify
+    - essentials.tempban.exempt
+    - essentials.tempban
+    - essentials.tempban.offline
+    - essentials.mute
+    - essentials.mute.exempt
+    - essentials.mute.notify
+    - essentials.mute.offline
+    - essentials.unban
+    - essentials.helpop.receive
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.nick.format
+  admin:
+    options:
+      prefix: '&c&lAdmin&7 '
+    inheritance:
+    - mod
+    - builder
+    permissions:
+    - essentials.ban
+    - essentials.ban.offline
+    - essentials.ban.exempt
+    - essentials.banip
+    - essentials.tempban.exempt
+    - essentials.tempban.unlimited
+    - essentials.unbanip
+    - essentials.broadcast
+    - essentials.essentials
+    - essentials.nick.magic
+    - horizon.command.*
+    - horizon.notification
+    - permissions.*
+    - skript.admin
+    - vault.admin
+    - vault.update
+  owner:
+    options:
+      prefix: '&4&lOwner&7 '
+    inheritance:
+    - admin
+schema-version: 1
+users:
+  851732b5-ab32-40ae-8b4e-6d8d140b767e:
+    options:
+      name: WatDuhHekBro
+    group:
+    - owner
+    permissions: []
+  aecd6614-bcf8-40ee-b548-5b17365d4d48:
+    group:
+    - builder
+    options:
+      name: MarkDeEngeMan
+  34f09b24-8441-4675-a738-3483aadb2ba1:
+    group:
+    - builder
+    options:
+      name: Kwodz
+  08945c2f-b505-4f76-accd-d26c32d6c690:
+    group:
+    - builder
+    options:
+      name: DashForce

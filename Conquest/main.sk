@@ -1,0 +1,88 @@
+on right click:
+	if player is holding iron sword:
+		execute console command "execute as %player% at @s run function wdhb:combat/mouseclick/ironsword"
+	else if player is holding stick:
+		execute console command "execute as %player% at @s run function wdhb:combat/mouseclick/stick"
+on left click:
+	if player is holding crossbow:
+		execute console command "execute as %player% at @s run function wdhb:combat/mouseclick/crossbow"
+
+command /help [<text>] [<text>]:
+	trigger:
+		if arg 1 is not set:
+			make player execute command "trigger commands set 1"
+		else if arg 1 is "info":
+			make player execute command "trigger commands set 8"
+		else if arg 1 is "combat":
+			make player execute command "trigger commands set 10"
+		else if arg 1 is "class":
+			if arg 2 is not set:
+				make player execute command "trigger commands set 11"
+			else if arg 2 is "1" or "soldier":
+				make player execute command "trigger commands set -101"
+			else:
+				message "&eUnknown Class: &6%arg 2%"
+		else if arg 1 is "conquest":
+			make player execute command "trigger commands set 12"
+		else if arg 1 is "misc":
+			make player execute command "trigger commands set 9"
+		else:
+			message "&eUnknown Page: &6%arg 1%"
+command /class [<text>]:
+	aliases: /c
+	trigger:
+		if arg 1 is not set:
+			make player execute command "trigger commands set 11"
+		else if arg 1 is "1" or "infantry" or "soldier":
+			make player execute command "trigger commands set -1"
+		else:
+			message "&eUnknown Class: &6%arg 1%"
+command /language [<text>]:
+	aliases: /lang, /l
+	trigger:
+		if arg 1 is not set:
+			message "&eLanguages: &6English (en)&e, &6Test (ts)(Testáȝifmurkálřitan)"
+		else if arg 1 is "1" or "english" or "en":
+			make player execute command "trigger commands set 100"
+		else if arg 1 is "100" or "test" or "ts" or "testaghifmurkalrhitan":
+			make player execute command "trigger commands set 200"
+		else:
+			message "&eUnknown Language: &6%arg 1%"
+command /cosmetics [<text>]:
+	aliases: /cm
+	trigger:
+		make player execute command "trigger commands set 4"
+command /profile [<text>]:
+	trigger:
+		make player execute command "trigger commands set 2"
+command /stats [<text>]:
+	trigger:
+		make player execute command "trigger commands set 3"
+command /news [<text>]:
+	trigger:
+		make player execute command "trigger commands set 5"
+command /discord [<text>]:
+	trigger:
+		make player execute command "trigger commands set 6"
+command /queue [<text>]:
+	aliases: /q
+	trigger:
+		make player execute command "trigger commands set 7"
+command /leave [<text>]:
+	trigger:
+		make player execute command "trigger commands set 13"
+
+command /hub [<text>]:
+	trigger:
+		message "&9[--------------------- [&6Goodbye!&9] ---------------------]"
+		message "&3Thanks for playing, &6%player%&3!"
+		message "&3The server is &breeee3expo.minehut.gg&3."
+		message "&3The Discord link is &bhttps://discord.gg/B2Fs58b&3."
+		message "&9[----------------------------------------------------]"
+		make player execute command "lobby"
+command /rel [<text>]:
+	trigger:
+		make player execute command "minecraft:reload"
+		make player execute command "sk reload scripts"
+		make player execute command "essentials reload"
+		make player execute command "pex reload"

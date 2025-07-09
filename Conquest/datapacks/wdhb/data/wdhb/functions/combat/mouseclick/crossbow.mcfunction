@@ -1,0 +1,1 @@
+execute as @s[scores={class=5}] at @s run function wdhb:combat/abilities/switch
