@@ -1,41 +1,33 @@
-#########################################
-#                                       #
-# Project: BotA (Battles of the Arcane) #
-# Developer: WatDuhHekBro               #
-# Version: 0.1a (Beta)                  #
-# Last Updated: 22 October, 2017        #
-#                                       #
-#########################################
+#######################################
+#                                     #
+# Project: AFFA (Arcane Free For All) #
+# Developer: WatDuhHekBro             #
+# Version: 0.2 (Beta)                 #
+# Last Updated: 10 August, 2018       #
+#                                     #
+#######################################
 
 ## [Utilities Loop] ##
-function wdhb_bota:util/generalLoop
-function wdhb_bota:util/changelog
-function wdhb_bota:util/calculateStats
-function wdhb_bota:util/userCommands
-function wdhb_bota:util/timer
-function wdhb_bota:util/effects
-function wdhb_bota:util/damageTaken
+function wdhb_affa:util/generalLoop
+function wdhb_affa:util/changelog
+function wdhb_affa:util/userCommands
+function wdhb_affa:util/timer
+function wdhb_affa:util/effects
+function wdhb_affa:util/damageTaken
 
-## [BotA Engine] ##
-# Barbarian (Class 1) #
-function wdhb_bota:barbarian/offhand1
-function wdhb_bota:barbarian/drop1
-function wdhb_bota:barbarian/passive
+## [AFFA Engine] ## (Might add a shield to the third slot with defensive abilities, and a rod to the fourth slot with unconventional/odd abilities. The shield's passive ability would be having an absorption barrier which is negated by not holding the shield. The rod's passive ability would be setting a shock mine, stunning and summoning one lightning bolt on whoever steps on it. The upgraded rod would make that a proximity mine.)
+# Sword Abilities #
+function wdhb_affa:sword/swap/dash
+function wdhb_affa:sword/drop/counter
+function wdhb_affa:sword/drop/bone_breaker
 
-# Hunter (Class 2) #
-function wdhb_bota:hunter/offhand1
-function wdhb_bota:hunter/drop1
-function wdhb_bota:hunter/passive
+# Bow Abilities #
+function wdhb_affa:bow/passive
+function wdhb_affa:bow/swap/temp
+function wdhb_affa:bow/drop/temp
 
-# Warlock (Class 3) #
-#function wdhb_bota:warlock/offhand1
-#function wdhb_bota:warlock/drop1
-#function wdhb_bota:warlock/offhand2
-#function wdhb_bota:warlock/drop2
-#function wdhb_bota:warlock/passive
-function wdhb_bota:warlock/sneak
+# Sneak Abilities #
+function wdhb_affa:sneak/synthesis
 
-# Rogue (Class 4) #
-function wdhb_bota:rogue/offhand1
-function wdhb_bota:rogue/drop1
-function wdhb_bota:rogue/passive
+# Passive Abilities #
+function wdhb_affa:passive/endurance

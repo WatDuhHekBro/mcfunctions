@@ -1,19 +1,7 @@
-- Maybe in the far future add a ranking system, so similar ranks fight against each other. It'll be continuous, like League. E rank fights E rank, and by winning, you gain points to D rank, and you fight people from D rank.
-- Maybe add a spectate above option.
 - Changes HAVE to be made since defenses are too weak and weapons are too strong. Add a second health bar and armor w/o head.
 - I could add a currency in the future, maybe for hat cosmetics. Also, you could bet on who wins, maybe even based on their win rate. You cannot bet during a battle, only during the queue time.
-- The lock in process will work like this: Player walks in, gets class, then tps everyone to the center that's near there. Then has a glass wall that'll only disappear if changes classes.
 - Make cooldowns show seconds and milliseconds. Cooldowns will have a priority over mana/energy messages. ([Ability] can be activated in [time].)
-* 2m for all matches of. If one of the players don't die within this time frame, it'll be a stalemate.
-- This would remove all conflicts, and make it truly 1v1. Given 15 seconds to choose, if a class isn't chosen, a random one will be chosen for the user.
-- Add a queue system, people line up to fight, then it subtracts 1 score from everyone so 2 players get in.
-- Red vs blue, with gold spectating in the background.
 - Make a video compilation of all the moves, with a test subject, so the audience wouldn't have to wait on something like a training room, and they could see in detail what the ability is about (in case they don't get what it does). This'll only work if I can find a proper video editor.
-- Maybe the lobby music here will be DQ4: Colosseum Backstage. Battle music will probably be fast paced, such as DQ3 or DQ6 battle themes.
-- Cosmetics for BotA will probably be simple: Hats, they don't affect gameplay, unlike particles, and are not going to lag your game.
-- Patch Notifications will work similarly to the welcome messages. This time though, it'll just be removed and re-added whenever a new patch comes out. There'll still be welcome messages along with it. Add a link to discord that'll show more information.
-- As the 2 players choose their classes, the music is silent. It's still running, but others cannot hear it. There's just ticking until the battle music.
-- Scoreboard: (Everyone) Kills leaderboard when the game is not active. Timers when the game is about to start and during the game.
 * For sneak abilities that refresh (like the Vampire's Take Flight), show when the ability is ready in the action bar. Actually, for any ability that has a cooldown, show when it's ready (later).
 
 [Warlock (Stick & Lever)]

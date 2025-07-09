@@ -5,5 +5,4 @@
 #                                     #
 #######################################
 
-#execute @a[score_damageTaken_min=1] ~ ~ ~ say @s is hurt. OWWW!
-scoreboard players set @a[score_damageTaken_min=1] damageTaken 0
+effect @a[score_passive=0] resistance 2 0 true

@@ -1,0 +1,48 @@
+"Non-traditional PvP." (Magical Abilites)
+
+Instead of having structured matches, it's an FFA with ability slots. Much easier since I can just do away with the battle system here. Then you can focus all of your effort on the abilities.
+
+You start out with a weapon (wooden sword), then as you get more kills, you can unlock magic abilities (doesn't matter what weapon you use, just the slot). And then you continue. I'm probably not going to do armor, that'd be out of my control, and it's only passive abilities. So your primary slot is a melee weapon. Your second slot is a ranged weapon. The third slot is a shield (deflect arrows). The fourth slot is a fishing rod (grab enemies). Along with abilities, you can upgrade the base weapon. Fishing rods can be lightning rods which shoots lightning when cast. The magic shield comes with its own barrier when you draw it. The bow can be enchanted with fire. The arrow spawn rate will not change. The sword can be upgraded into stone, iron, then diamond. In later versions, the gold sword would double magic abilities and the sword could be exchanged for other weapons like axes which have unique abilities.
+
+Global: 2nd health bar in place of defense.
+
+[Starter Pack Abilities]
+Passive: Endurance (Resistance I) (Default)
+Sword Swap: Dash (Starter: 1 kill)
+Sword Drop: Counter (Starter: 2 kills)
+Bow (The bow itself has a passive of its own. Doesn't consume your passive slot. On third shot, powers up the bow. Bow abilities will need to be purchased later on.) (Starter: 3 kills)
+Sneak: Stasis (Starter: 4 kills + The ability to earn coins for each kill. "Congratulations! You've completed your starter kit! Now, you'll earn a coin for every kill so you can obtain more abilities.")
+
+(Actually, everything will be 3 or 5 coins, except the sword upgrades.)
+
+[Sword Swap Abilities]
+Dash
+
+[Sword Drop Abilities]
+Counter
+
+[Bow Swap Abilites]
+
+
+[Bow Drop Abilities]
+
+
+[Sneak Abilites]
+Stasis (Remove the damage effect.)
+Shadow Dash
+Barrier (Requires a full mana bar. Stuns the user like Stasis. Adds a 10 heart barrier then slightly increases the regeneration rate. Consumes double mana than the normal regaining rate.)
+(Maybe) An ability with the old Stasis damage effect. Where you are stuns and damages the enemy. It's a stun in very close proximity. Then it's a gradually decaying slow the further out it is.
+(Maybe) A disarm sneak ability.
+
+[Passive Abilities]
+Endurance
+Bulk/Brawn/Impact (Resistance II + Slowness I)
+Killjoy (After killing someone, you get a speed and strength and resistance boost.)
+Charge
+
+
+
+[Stuff]
+Create one variable for each ability slot.
+
+On second thought, maybe everything should just be free, then coins would be for cosmetics (hats & particles).

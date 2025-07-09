@@ -1,30 +1,10 @@
 command-block-overrides: []
 aliases:
-    q:
-    - "trigger queue set 1"
-    music:
-    - "trigger music set 1"
-    hat:
-    - "trigger hat set 1"
     help:
     - "trigger help set 1"
-    cstats:
-    - "trigger cstats set 1"
     profile:
     - "trigger profile set 1"
     info:
     - "trigger info set 1"
     news:
     - "trigger news set 1"
-    speed:
-    - "trigger speed set 1"
-    forfeit:
-    - "trigger forfeit set 1"
-    barbarian:
-    - "trigger barbarian set 1"
-    hunter:
-    - "trigger hunter set 1"
-    warlock:
-    - "trigger warlock set 1"
-    rogue:
-    - "trigger rogue set 1"
