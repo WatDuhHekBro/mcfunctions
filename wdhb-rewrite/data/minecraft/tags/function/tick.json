@@ -1,0 +1,9 @@
+{
+	"values": [
+		"wdhb:main",
+		"wdhb-general:main",
+		"wdhb-conquest:main",
+		"wdhb-arena:main",
+		"wdhb-snd:main"
+	]
+}

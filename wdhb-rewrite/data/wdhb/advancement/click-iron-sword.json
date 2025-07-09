@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:iron_sword"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:core/rogue/click"
+	}
+}

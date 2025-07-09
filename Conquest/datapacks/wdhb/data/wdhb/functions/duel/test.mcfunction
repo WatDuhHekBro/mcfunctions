@@ -1,1 +1,0 @@
-tellraw @s "Bákhıřán sví éðvnır."

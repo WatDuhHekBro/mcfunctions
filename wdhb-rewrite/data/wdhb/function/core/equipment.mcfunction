@@ -1,0 +1,3 @@
+item replace entity @s[scores={class=1}] hotbar.0 with minecraft:iron_sword[consumable={consume_seconds: 2147483647}, food={nutrition: 0, saturation: 0, can_always_eat: true}, unbreakable={show_in_tooltip: false}, minecraft:item_name='{"text":"Blade of the Tempest","color":"red","italic":true}', minecraft:enchantment_glint_override=true]
+
+item replace entity @s[scores={class=4}] hotbar.0 with minecraft:diamond_axe[consumable={consume_seconds: 2147483647}, food={nutrition: 0, saturation: 0, can_always_eat: true}, unbreakable={show_in_tooltip: false}, minecraft:item_name='{"text":"Barbarian\'s Axe"}']

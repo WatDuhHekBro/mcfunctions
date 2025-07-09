@@ -1,0 +1,37 @@
+Spaghetti under the hub:
+
+Tower of repeating blocks:
+
+/scoreboard players test SnD_Lobby Lobby 1 1
+/tellraw @a[x=-4,y=89,z=8,dx=8,dy=6,dz=14] ["",{"text":"Needs at least 2 players to start!","color":"dark_red","bold":true}]
+Exactly one player
+
+/scoreboard players test SnD_Lobby Lobby 10 100
+/scoreboard players set SnD_Lobby Timer 0
+/tellraw @a ["",{"text":"Maximum player limit reached! Starting game now!","color":"green","bold":true}]
+10 or more players immediately starts
+
+SnD_Lobby is for the lobby, SnD is for the active game. I know.
+
+/scoreboard players test SnD_Lobby Timer 10 10
+/tellraw @a ["",{"text":"10 seconds until Search and Destroy (SnD) begins!","color":"green","bold":true}]
+
+/scoreboard players test SnD_Lobby Timer 0 0
+/function wdhb_snd:start
+delay 8t
+/function wdhb_snd:start2
+
+/scoreboard players test SnD_Lobby Lobby 2 10
+/scoreboard players set SnD_Lobby timeraccess 1
+/scoreboard players set SnD_Lobby timeraccess 0
+
+/scoreboard players test SnD_Lobby Timer -1 -1
+/scoreboard players set SnD_Lobby Timer 0
+
+/scoreboard players test SnD_Lobby timeraccess 1 1
+/scoreboard players set SnD_Lobby Timer 20
+/setblock 0 86 10 redstone_wire
+start countdown
+
+/playsound block.dispenser.fail neutral @a[x=-4,y=89,z=8,dx=8,dy=6,dz=14] ~ ~ ~ 1000 2
+click sound each second of countdown
