@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"jungle_edge": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:jungle_edge"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/hot"
+	}
+}

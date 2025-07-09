@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"beaches": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:beaches"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/neutral"
+	}
+}

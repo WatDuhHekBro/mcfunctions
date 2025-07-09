@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mutated_jungle": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mutated_jungle"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/hot"
+	}
+}

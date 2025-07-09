@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"birch_forest_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:birch_forest_hills"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/neutral"
+	}
+}

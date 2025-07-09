@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"hell": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:hell"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/scorching"
+	}
+}

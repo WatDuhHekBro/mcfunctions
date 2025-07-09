@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"river": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:river"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/neutral"
+	}
+}

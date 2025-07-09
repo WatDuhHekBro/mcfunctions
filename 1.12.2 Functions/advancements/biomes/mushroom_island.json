@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mushroom_island": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mushroom_island"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/neutral"
+	}
+}

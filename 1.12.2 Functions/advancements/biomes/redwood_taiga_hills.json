@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"redwood_taiga_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:redwood_taiga_hills"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/cold"
+	}
+}

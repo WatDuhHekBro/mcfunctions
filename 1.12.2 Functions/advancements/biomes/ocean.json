@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"ocean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:ocean"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/neutral"
+	}
+}

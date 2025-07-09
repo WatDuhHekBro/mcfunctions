@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"extreme_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:extreme_hills"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/cold"
+	}
+}

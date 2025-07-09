@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:forest"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/neutral"
+	}
+}

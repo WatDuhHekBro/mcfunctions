@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"frozen_river": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:frozen_river"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/freezing"
+	}
+}

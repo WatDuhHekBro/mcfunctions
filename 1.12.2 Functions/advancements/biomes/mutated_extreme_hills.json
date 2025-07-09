@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mutated_extreme_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mutated_extreme_hills"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/cold"
+	}
+}

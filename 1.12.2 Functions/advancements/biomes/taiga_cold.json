@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"taiga_cold": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:taiga_cold"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/freezing"
+	}
+}

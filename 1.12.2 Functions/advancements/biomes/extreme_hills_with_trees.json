@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"extreme_hills_with_trees": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:extreme_hills_with_trees"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/cold"
+	}
+}

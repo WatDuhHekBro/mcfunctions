@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"plains": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:plains"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/neutral"
+	}
+}

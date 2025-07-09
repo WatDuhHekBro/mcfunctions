@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mutated_desert": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mutated_desert"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/burning"
+	}
+}

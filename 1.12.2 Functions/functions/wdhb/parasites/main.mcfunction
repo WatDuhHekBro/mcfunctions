@@ -66,10 +66,6 @@ scoreboard players set @a[score_cure_min=1] cure 0
 # The Parasite Itself #
 #######################
 
-## Future Ideas ##
-# stat.useItem.minecraft.beef - Eat Raw Beef, a chance you'll get infected (yeah, you've gotta cook meat so you can kill the parasites)
-# Actually, if an infected livestock dies, its products should be highly infectious. Anything that touches its items - including you - will get infected. Hence why you must burn those items. Yeah, tight pens don't exactly work here do they?
-
 # These things wander around until it finds a host (very specific, only one species is affected). Then after a while, it bursts out in bigger numbers.
 
 scoreboard players set @e[score_parasitetimer=-1] parasitetimer 0

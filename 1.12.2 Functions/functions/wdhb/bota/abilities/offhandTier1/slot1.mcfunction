@@ -1,0 +1,1 @@
+#@a[tag=activeOffhand,score_OffhandTier1_min=1,score_OffhandTier1=1]

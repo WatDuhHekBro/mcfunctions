@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"smaller_extreme_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:smaller_extreme_hills"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/cold"
+	}
+}

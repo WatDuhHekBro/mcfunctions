@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mutated_mesa": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mutated_mesa"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/burning"
+	}
+}

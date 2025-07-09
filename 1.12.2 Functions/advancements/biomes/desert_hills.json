@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"desert_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:desert_hills"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/burning"
+	}
+}

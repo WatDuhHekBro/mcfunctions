@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mutated_roofed_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mutated_roofed_forest"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/neutral"
+	}
+}

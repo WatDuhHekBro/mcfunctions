@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mutated_mesa_clear_rock": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mutated_mesa_clear_rock"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/burning"
+	}
+}

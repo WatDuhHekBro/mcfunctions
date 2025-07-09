@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mutated_taiga": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:mutated_taiga"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/cold"
+	}
+}

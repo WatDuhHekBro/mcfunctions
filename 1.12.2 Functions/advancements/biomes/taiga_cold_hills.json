@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"taiga_cold_hills": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:taiga_cold_hills"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/freezing"
+	}
+}

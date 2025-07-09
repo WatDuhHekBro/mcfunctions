@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"swampland": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:swampland"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/hot"
+	}
+}

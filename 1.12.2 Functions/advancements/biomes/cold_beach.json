@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"cold_beach": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"biome": "minecraft:cold_beach"
+			}
+		}
+	},
+	"rewards": {
+		"function": "wdhb:temperature/triggers/freezing"
+	}
+}
