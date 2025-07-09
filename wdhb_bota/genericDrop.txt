@@ -1,0 +1,24 @@
+#########################################
+#                                       #
+# Project: BotA (Battles of the Arcane) #
+# Developer: WatDuhHekBro               #
+#                                       #
+#########################################
+
+## [Wooden Hoe] ##
+#- Can the user cast? -#
+scoreboard players set @a[l=6] 4d1able 0
+scoreboard players set @a[lm=7] 4d1able 1
+scoreboard players set @a[score_class=4,score_class_min=4,score_inGame_min=1,score_4d1drop_min=1] 4d1 1
+clear @a[score_4d1_min=1] wooden_hoe
+#- Cannot cast -#
+execute @a[score_4d1_min=1,score_4d1able=0] ~ ~ ~ playsound block.note.pling neutral @s ~ ~ ~ 1000 1
+title @a[score_4d1_min=1,score_4d1able=0] actionbar ["",{"text":"lYou do not have enough energy to cast this ability!","color":"red","bold":true}]
+replaceitem entity @a[score_4d1_min=1,score_4d1able=0] slot.hotbar.0 wooden_hoe 1 0
+#- Can cast -#
+execute @a[score_4d1_min=1,score_4d1able_min=1] ~ ~ ~ playsound block.note.pling neutral @s ~ ~ ~ 1000 2
+title @a[score_4d1_min=1,score_4d1able_min=1] actionbar ["",{"text":"SAW DOOD!!!","color":"blue","bold":true}]
+replaceitem entity @a[score_4d1_min=1,score_4d1able_min=1] slot.hotbar.0 wooden_hoe 1 0
+xp -7L @a[score_4d1_min=1,score_4d1able_min=1]
+scoreboard players set @a 4d1 0
+scoreboard players set @a 4d1drop 0
