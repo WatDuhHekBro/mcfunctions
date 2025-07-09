@@ -2,7 +2,7 @@
 #                       #
 # Project: Parasite     #
 # Creator: WatDuhHekBro #
-# Version: I            #
+# Version: II           #
 # Date: 19 March, 2019  #
 #                       #
 #########################
@@ -127,7 +127,7 @@ execute @e[tag=infected,score_parasitetimer_min=2400] ~ ~ ~ effect @e[type=Silve
 execute @e[tag=infected,score_parasitetimer_min=2400] ~ ~ ~ summon Creeper ~ ~ ~ {CustomName:"Parasite",Fuse:1s,ignited:60b}
 scoreboard players tag @e[score_parasitetimer_min=2400] remove infected
 scoreboard players set @e[score_parasitetimer_min=2400] parasitetimer -1
-minecraft:kill @e[score_parasitetimer=-1]
+execute @e[score_parasitetimer=-1] ~ ~ ~ minecraft:kill @s
 
 ########################
 # Automatic Despawning #
@@ -136,4 +136,4 @@ minecraft:kill @e[score_parasitetimer=-1]
 # parasitetimer for the parasites themselves basically determine their lifespan.
 
 scoreboard players add @e[type=Silverfish] parasitetimer 1
-minecraft:kill @e[type=Silverfish,score_parasitetimer_min=2400]
+execute @e[type=Silverfish,score_parasitetimer_min=2400] ~ ~ ~ minecraft:kill @s
