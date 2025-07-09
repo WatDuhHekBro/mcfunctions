@@ -1,0 +1,2 @@
+replaceitem entity @s[tag=battle] hotbar.0 trident{Unbreakable:1,HideFlags:5,Enchantments:[{id:"minecraft:impaling",lvl:5},{id:"minecraft:loyalty",lvl:3},{id:"minecraft:channeling",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]}
+replaceitem entity @s[tag=!battle] hotbar.0 trident{Unbreakable:1,HideFlags:5,Enchantments:[{id:"minecraft:impaling",lvl:5},{id:"minecraft:riptide",lvl:3},{id:"minecraft:vanishing_curse",lvl:1}]}
