@@ -1,0 +1,40 @@
+[Objectives]
+- region: Determines which area something or someone is.
+	+ Region 0: Nothing / Everywhere Else (This is used to test if someone leaves a region like during SnD spectating.)
+	+ Region 1: Spawn
+	+ Region 2: SnD Lobby
+	+ Region 3: PvP Stadium (The stands where the spectators are.)
+	+ Region 4: PvP Arena (Where the actual fighting takes place.)
+	+ Region 5: HR Lobby
+	+ Region 6: HR Stadium
+	+ Region 7: Dictatorship (RP)
+	+ Region 8: SnD Map Slot 1
+	+ Region 9: SnD Map Slot 2
+	+ Region 10: SnD Map Slot 3
+	+ Region 11: SnD Map Slot 4
+	+ Region 12: SnD Map Slot 5
+	+ Region 13: SnD Map Slot 6
+	+ Region 14: SnD Map Slot 7
+	+ Region 15: SnD Map Slot 8
+	+ Region 16: SnD Map Slot 9
+	+ Region 17: SnD Map Slot 10
+	+ Region 18: SnD Map Slot 11
+	+ Region 19: SnD Map Slot 12
+	+ Region 20: SnD Map Slot 13
+- leave: Determines if a player has left or not. Because it's bound to a stat, it's an objective.
+- numjoins: The number of times you've joined the server. Viewable in /profile.
+- playtime: The amount of time you've been on the server (in seconds). Viewable in /profile.
+- numcosmetics: The amount of cosmetics the player has obtained. Viewable in /profile as a fraction.
+- numsndgames: SnD games played. Viewable in /profile.
+- numsndwins: SnD wins. Viewable in /profile.
+- numpvpkills: PvP Arena kills. Viewable in /profile.
+- numpvpdeaths: PvP Arena deaths. Viewable in /profile.
+- num1v1games: 1v1 matches played. Viewable in /profile.
+- num1v1wins: 1v1 matches won. Viewable in /profile.
+- numtourneygames: Tournaments played. Viewable in /profile.
+- numtourneywins: Tournaments won. Viewable in /profile.
+- numhrgames: Horse Race games played. Viewable in /profile.
+- numhrwins: Horse Race games won. Viewable in /profile.
+
+[Tags]
+- firstjoin: Determines who has joined for the first time or who has already joined. Good for initializing variables/objectives.

@@ -1,17 +1,26 @@
-# First Login
-scoreboard players add @a FirstTimer 0
-execute @a[score_FirstTimer=0] ~ ~ ~ tellraw @a ["",{"text":"Login ","color":"blue"},{"text":"» ","color":"blue"},{"selector":"@p","color":"green"},{"text":" has logged in for the first time!","color":"gray"}]
-scoreboard players set @a[score_FirstTimer=0] music 0
-scoreboard players set @a[score_FirstTimer=0] Wins 0
-scoreboard teams join Lobby @a[score_FirstTimer=0]
-execute @a[score_FirstTimer=0] ~ ~ ~ summon fireworks_rocket ~ ~ ~ {LifeTime:1,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1,Trail:0,Colors:[1703927],FadeColors:[16777215]}]}}}}
-title @a[score_FirstTimer=0] title ["",{"text":"Welcome ","color":"aqua"},{"selector":"@a[score_FirstTimer=0]","color":"green"}]
-title @a[score_FirstTimer=0] subtitle {"text":"to the server!","color":"gold"}
-scoreboard players set @a FirstTimer 1
+###############################
+#                             #
+# Project: Horseplay          #
+# Developer: WatDuhHekBro     #
+# Version: 0.1 (Beta)         #
+# Last Updated: 3 March, 2019 #
+#                             #
+###############################
 
+###############
+# First Login #
+###############
+execute @a[tag=!firstjoin] ~ ~ ~ tellraw @a ["",{"text":"Login ","color":"blue"},{"text":"» ","color":"blue"},{"selector":"@p","color":"green"},{"text":" has logged in for the first time!","color":"gray"}]
+execute @a[tag=!firstjoin] ~ ~ ~ summon fireworks_rocket ~ ~ ~ {LifeTime:1,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1,Trail:0,Colors:[1703927],FadeColors:[16777215]}]}}}}
+title @a[tag=!firstjoin] title ["",{"text":"Welcome ","color":"aqua"},{"selector":"@a[tag=!firstjoin]","color":"green"}]
+title @a[tag=!firstjoin] subtitle {"text":"to the server!","color":"gold"}
+scoreboard teams join Lobby @a[tag=!firstjoin]
+#scoreboard obj denullify
+scoreboard players tag @a[tag=!firstjoin] add firstjoin
 
-
-# Generic
+###########
+# Generic #
+###########
 clear @a[x=-4,y=104,z=-4,dx=8,dy=4,dz=8,m=!1]
 effect @a[x=-4,y=100,z=-4,dx=8,dy=4,dz=8] resistance 1 100 true
 effect @a[x=-4,y=100,z=-4,dx=8,dy=4,dz=8] instant_health 1 100 true
@@ -29,68 +38,11 @@ scoreboard players set @a[x=-4,y=100,z=-4,dx=8,dy=4,dz=8] inGame 0
 scoreboard players set @a[x=-4,y=100,z=-4,dx=8,dy=4,dz=8] winner 0
 gamemode 2 @a[x=-4,y=104,z=-4,dx=8,dy=4,dz=8,score_spectator=0,m=3]
 scoreboard players set @a[x=-4,y=104,z=-4,dx=8,dy=4,dz=8] spectator 0
-tp @a[x=-1,y=89,z=9,dx=2,dy=2,dz=0] 0 100 0 0 0
-particle portal 0 100 13 0 0.5 0 0.3 25 force @a
-tp @a[x=0,y=100,z=13,dx=0,dy=1,dz=0] 0 90 13 0 0
 execute @a ~ ~ ~ scoreboard players set @e[type=Armor_Stand,r=1] spawnPoint 0
 
-
-
-# Spawn Options
-scoreboard players set @a[x=-1,y=100,z=-8,dy=1] music 0
-scoreboard players set @a[x=1,y=100,z=-8,dy=1] music 1
-scoreboard players set @a[x=7,y=100,z=-2,dy=1,score_Wins_min=5] aura 1
-scoreboard players set @a[x=7,y=100,z=2,dy=1,score_Wins_min=10] aura 2
-scoreboard players set @a[x=10,y=100,z=-2,dy=1,score_Wins_min=25] aura 3
-scoreboard players set @a[x=10,y=100,z=2,dy=1,score_Wins_min=50] halo 1
-scoreboard players set @a[x=13,y=100,z=-2,dy=1,score_Wins_min=75] clothes 1
-scoreboard players set @a[x=13,y=100,z=2,dy=1,score_Wins_min=100] clothes 3
-scoreboard players set @a[x=16,y=100,z=-2,dy=1,score_Wins_min=125] halo 2
-scoreboard players set @a[x=16,y=100,z=2,dy=1,score_Wins_min=150] clothes 2
-scoreboard players set @a[x=19,y=100,z=-2,dy=1,score_Wins_min=200] invis 1
-scoreboard players set @a[x=19,y=100,z=2,dy=1,score_Wins_min=250] rainbowName 1
-scoreboard players set @a[x=22,y=100,z=-2,dy=1,score_Wins_min=300] rainbowGlow 1
-scoreboard players set @a[x=22,y=100,z=-2,dy=1,score_Wins_min=300] rainbowName 1
-scoreboard players set @a[x=22,y=100,z=2,dy=1,score_Wins_min=300] aura 4
-
-
-
-# Cosmetics
-# [Auras]
-scoreboard players set @a[x=3,y=100,z=3,dy=1] aura 0
-execute @a[score_aura=1,score_aura_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle snowshovel ~ ~1 ~ 0 0 0 0.15 5 force @a
-execute @a[score_aura=2,score_aura_min=2,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle portal ~ ~1 ~ 0 0 0 1 15 force @a
-execute @a[score_aura=3,score_aura_min=3,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle enchantmenttable ~ ~1 ~ 0 0 0 1 15 force @a
-# [Clothes]
-scoreboard players set @a[x=3,y=100,z=3,dy=1] clothes 0
-replaceitem entity @a[score_clothes=0,score_clothes_min=0] slot.armor.head air
-replaceitem entity @a[score_inGame=1,score_inGame_min=1] slot.armor.head air
-replaceitem entity @a[score_clothes=1,score_clothes_min=1,score_inGame=0,score_inGame_min=0] slot.armor.head glass
-replaceitem entity @a[score_clothes=2,score_clothes_min=2,score_inGame=0,score_inGame_min=0] slot.armor.head skull 1 5
-replaceitem entity @a[score_clothes=3,score_clothes_min=3,score_inGame=0,score_inGame_min=0] slot.armor.head bed 1 14
-# [Halos]
-scoreboard players set @a[x=3,y=100,z=3,dy=1] halo 0
-execute @a[score_halo=1,score_halo_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle flame ~.5 ~2.2 ~ 0 0 0 0 1 force @a
-execute @a[score_halo=1,score_halo_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle flame ~-.5 ~2.2 ~ 0 0 0 0 1 force @a
-execute @a[score_halo=1,score_halo_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle flame ~ ~2.2 ~.5 0 0 0 0 1 force @a
-execute @a[score_halo=1,score_halo_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle flame ~ ~2.2 ~-.5 0 0 0 0 1 force @a
-execute @a[score_halo=1,score_halo_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle flame ~.25 ~2.2 ~.25 0 0 0 0 1 force @a
-execute @a[score_halo=1,score_halo_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle flame ~.25 ~2.2 ~-.25 0 0 0 0 1 force @a
-execute @a[score_halo=1,score_halo_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle flame ~-.25 ~2.2 ~.25 0 0 0 0 1 force @a
-execute @a[score_halo=1,score_halo_min=1,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle flame ~-.25 ~2.2 ~-.25 0 0 0 0 1 force @a
-execute @a[score_halo=2,score_halo_min=2,score_inGame=0,score_inGame_min=0] ~ ~ ~ particle happyVillager ~ ~1.9 ~ 0 0 0 0 1 force @a
-# [Specials]
-scoreboard players set @a[x=3,y=100,z=3,dy=1] invis 0
-effect @a[score_invis=1,score_invis_min=1,score_inGame=0,score_inGame_min=0] invisibility 1 0 true
-scoreboard players set @a[x=3,y=100,z=3,dy=1] rainbowGlow 0
-effect @a[score_rainbowGlow=1,score_rainbowGlow_min=1,score_inGame=0,score_inGame_min=0,score_spectator=0] glowing 1 0 true
-scoreboard players set @a[x=-4,y=89,z=8,dx=8,dy=6,dz=14] rainbowName 0
-scoreboard players set @a[x=3,y=100,z=3,dy=1] rainbowName 0
-scoreboard teams join Lobby @a[x=3,y=100,z=3,dy=1]
-
-
-
-# SnD Function Loops
+######################
+# SnD Function Loops #
+######################
 # [Arrow Counts]
 scoreboard players set @a[team=SnD] SnDarrowmax 1 {Inventory:[{id:"minecraft:arrow",Count:1b}]}
 scoreboard players set @a[team=SnD] SnDarrowmax 2 {Inventory:[{id:"minecraft:arrow",Count:2b}]}
