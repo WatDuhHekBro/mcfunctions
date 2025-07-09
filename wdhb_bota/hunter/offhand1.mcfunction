@@ -7,8 +7,8 @@
 
 ## [Main: Quickdraw] ##
 #- Can the user cast? -#
-scoreboard players set @a[l=9] 2o1able 0
-scoreboard players set @a[lm=10] 2o1able 1
+scoreboard players set @a[l=7] 2o1able 0
+scoreboard players set @a[lm=8] 2o1able 1
 scoreboard players set @a[score_class=2,score_class_min=2,score_inGame_min=1] 2o1 1 {Inventory:[{Slot:-106b,id:"minecraft:bow"}]}
 clear @a[score_2o1_min=1] bow
 #- Cannot cast -#
@@ -32,6 +32,6 @@ effect @a[score_2o1_min=1,score_2o1able_min=1,score_2o1timer_min=4] invisibility
 replaceitem entity @a[score_2o1_min=1,score_2o1able_min=1,score_2o1timer_min=4,score_2p=1] slot.hotbar.0 bow 1 0 {Unbreakable:1,display:{Name:"Hunter's Bow"},HideFlags:4}
 replaceitem entity @a[score_2o1_min=1,score_2o1able_min=1,score_2o1timer_min=4,score_2p_min=2] slot.hotbar.0 bow 1 0 {Unbreakable:1,display:{Name:"Focused Shot"},HideFlags:5,ench:[{id:48,lvl:2},{id:49,lvl:1}]}
 give @a[score_2o1_min=1,score_2o1able_min=1,score_2o1timer_min=4] arrow 1 0
-xp -10L @a[score_2o1_min=1,score_2o1able_min=1,score_2o1timer_min=4]
+xp -8L @a[score_2o1_min=1,score_2o1able_min=1,score_2o1timer_min=4]
 scoreboard players set @a[score_2o1_min=1,score_2o1timer_min=4] 2o1 0
 scoreboard players set @a[score_2o1=0,score_2o1timer_min=4] 2o1timer 0

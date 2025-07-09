@@ -21,7 +21,7 @@ execute @e[type=Armor_Stand,name=Battle,score_battleInProgress_min=2] ~ ~ ~ scor
 scoreboard players remove @a[score_class=1,score_class_min=1,score_inGame_min=1,score_1o1cd_min=1] 1o1cd 1
 scoreboard players remove @a[score_class=1,score_class_min=1,score_inGame_min=1,score_1d1cd_min=1] 1d1cd 1
 scoreboard players add @a[score_2o1_min=1,score_2o1able_min=1,score_2o1timer=3] 2o1timer 1
-scoreboard players add @a[score_2ptimer=99] 2ptimer 1
+scoreboard players add @a[score_2ptimer=59] 2ptimer 1
 scoreboard players add @a[score_4o1_min=1,score_4o1able_min=1,score_4o1timer=1] 4o1timer 1
 scoreboard players add @e[score_4o1rvictim_min=1,score_4o1rtimer=1] 4o1rtimer 1
 scoreboard players remove @a[score_4o1rtime_min=1] 4o1rtime 1

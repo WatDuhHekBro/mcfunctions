@@ -98,15 +98,15 @@ scoreboard players enable @a barbarian
 execute @a[score_barbarian_min=1] ~ ~ ~ tellraw @s ["",{"text":"[-------------------- [","color":"blue"},{"text":"Barbarian","color":"dark_purple"},{"text":"] ---------------------]","color":"blue"}]
 execute @a[score_barbarian_min=1] ~ ~ ~ tellraw @s ["",{"text":"Intimidate (","color":"gray"},{"text":"Offhand, 5 mana, 3 seconds cooldown","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Gives all people within a radius of 8 blocks Slowness II for 3 seconds.","color":"dark_aqua"}]
 execute @a[score_barbarian_min=1] ~ ~ ~ tellraw @s ["",{"text":"Berserk (","color":"gray"},{"text":"Drop, 20 mana, 15 seconds cooldown","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Gets huge buffs like Speed VII, Absorption V, and Regeneration II for 5 seconds.","color":"dark_aqua"}]
-execute @a[score_barbarian_min=1] ~ ~ ~ tellraw @s ["",{"text":"Contempt (","color":"gray"},{"text":"Passive","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Permanent Slowness I, Strength II, and Resistance II.","color":"dark_aqua"}]
+execute @a[score_barbarian_min=1] ~ ~ ~ tellraw @s ["",{"text":"Contempt (","color":"gray"},{"text":"Passive","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Permanent Slowness I.","color":"dark_aqua"}]
 execute @a[score_barbarian_min=1] ~ ~ ~ tellraw @s ["",{"text":"[----------------------------------------------------]","color":"blue"}]
 scoreboard players set @a barbarian 0
 
 scoreboard players enable @a hunter
 execute @a[score_hunter_min=1] ~ ~ ~ tellraw @s ["",{"text":"[--------------------- [","color":"blue"},{"text":"Hunter","color":"dark_purple"},{"text":"] ----------------------]","color":"blue"}]
-execute @a[score_hunter_min=1] ~ ~ ~ tellraw @s ["",{"text":"Quickdraw (","color":"gray"},{"text":"Offhand, 10 mana","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Dashes a certain distance while invisible. All people caught within a radius of 3 will get disarmed. When the user stops dashing, they will get an extra arrow.","color":"dark_aqua"}]
+execute @a[score_hunter_min=1] ~ ~ ~ tellraw @s ["",{"text":"Quickdraw (","color":"gray"},{"text":"Offhand, 8 mana","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Dashes a certain distance while invisible. All people caught within a radius of 3 will get disarmed. When the user stops dashing, they will get an extra arrow.","color":"dark_aqua"}]
 execute @a[score_hunter_min=1] ~ ~ ~ tellraw @s ["",{"text":"Neurotoxin (","color":"gray"},{"text":"Drop, 20 mana","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Drops all other arrows to tip one arrow in a special poison. If it hits, it'll deal massive damage to the target.","color":"dark_aqua"}]
-execute @a[score_hunter_min=1] ~ ~ ~ tellraw @s ["",{"text":"Hunter's Eye (","color":"gray"},{"text":"Passive","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Every 5 seconds, the user will get an arrow. You can only have 2 of these arrows at one time. If you shoot twice in a row, your third shot will become powered, dealing more damage.","color":"dark_aqua"}]
+execute @a[score_hunter_min=1] ~ ~ ~ tellraw @s ["",{"text":"Hunter's Eye (","color":"gray"},{"text":"Passive","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Every 3 seconds, the user will get an arrow. You can only have 2 of these arrows at one time. If you shoot twice in a row, your third shot will become powered, dealing more damage.","color":"dark_aqua"}]
 execute @a[score_hunter_min=1] ~ ~ ~ tellraw @s ["",{"text":"[----------------------------------------------------]","color":"blue"}]
 scoreboard players set @a hunter 0
 
@@ -120,6 +120,5 @@ scoreboard players enable @a rogue
 execute @a[score_rogue_min=1] ~ ~ ~ tellraw @s ["",{"text":"[--------------------- [","color":"blue"},{"text":"Rogue","color":"dark_purple"},{"text":"] -----------------------]","color":"blue"}]
 execute @a[score_rogue_min=1] ~ ~ ~ tellraw @s ["",{"text":"Dashing Tempest (","color":"gray"},{"text":"Offhand, 3 mana","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Executes a quick ground dash. If the ability is recast within 1 second, it'll instead cast Wind Sweep (Offhand, 7 mana): Knocks up all enemies within a radius of 3 up into the air.","color":"dark_aqua"}]
 execute @a[score_rogue_min=1] ~ ~ ~ tellraw @s ["",{"text":"Bone Breaker (","color":"gray"},{"text":"Drop, 4 mana","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Disarms and stuns everyone in a radius of 3.","color":"dark_aqua"}]
-execute @a[score_rogue_min=1] ~ ~ ~ tellraw @s ["",{"text":"Awareness (","color":"gray"},{"text":"Passive","color":"aqua"},{"text":"): ","color":"gray"},{"text":"Permanent Speed II.","color":"dark_aqua"}]
 execute @a[score_rogue_min=1] ~ ~ ~ tellraw @s ["",{"text":"[----------------------------------------------------]","color":"blue"}]
 scoreboard players set @a rogue 0

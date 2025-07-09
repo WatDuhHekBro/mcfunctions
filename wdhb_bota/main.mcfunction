@@ -2,8 +2,8 @@
 #                                       #
 # Project: BotA (Battles of the Arcane) #
 # Developer: WatDuhHekBro               #
-# Version: 0.0 (Beta)                   #
-# Last Updated: 1 October, 2017         #
+# Version: 0.1a (Beta)                  #
+# Last Updated: 22 October, 2017        #
 #                                       #
 #########################################
 

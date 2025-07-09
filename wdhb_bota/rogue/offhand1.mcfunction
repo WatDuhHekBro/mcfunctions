@@ -23,7 +23,7 @@ replaceitem entity @a[score_4o1_min=1,score_4o1able=0] slot.hotbar.0 iron_sword 
 scoreboard players set @a[score_4o1_min=1,score_4o1able=0] 4o1 0
 #- Can cast -#
 effect @a[score_4o1_min=1,score_4o1able_min=1,score_4o1timer=0] jump_boost 1 128 true
-effect @a[score_4o1_min=1,score_4o1able_min=1,score_4o1timer=0] speed 1 60 true
+effect @a[score_4o1_min=1,score_4o1able_min=1,score_4o1timer=0] speed 1 35 true
 execute @a[score_4o1_min=1,score_4o1able_min=1,score_4o1timer=0] ~ ~ ~ playsound entity.bat.takeoff neutral @a ~ ~ ~ 1 0.75
 execute @a[score_4o1_min=1,score_4o1able_min=1,score_4o1timer=0] ~ ~ ~ particle cloud ~ ~ ~ 0 0 0 0.2 100 force @a
 execute @a[score_4o1_min=1,score_4o1able_min=1,score_4o1timer=0] ~ ~ ~ playsound entity.bat.takeoff neutral @a ~ ~ ~ 1 0.75

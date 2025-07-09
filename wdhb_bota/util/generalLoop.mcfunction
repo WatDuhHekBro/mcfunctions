@@ -32,8 +32,35 @@ scoreboard players set @a[score_generalHP_min=20] generalHP 0
 
 ## [Class Selection] ##
 scoreboard players set @a[x=0,y=37,z=42,dy=1] class 1
+scoreboard players tag @a[x=0,y=37,z=42,dy=1] add hasBarbarian
+
+execute @a[tag=hasBarbarian] ~ ~ ~ fill 0 37 41 0 38 41 glass
+execute @a[tag=hasBarbarian,x=7,y=37,z=35,dy=1] ~ ~ ~ fill 0 37 41 0 38 41 air
+execute @a[tag=hasBarbarian,x=7,y=37,z=35,dy=1] ~ ~ ~ scoreboard players tag @s remove hasBarbarian
+execute @a[tag=hasBarbarian,x=-7,y=37,z=35,dy=1] ~ ~ ~ fill 0 37 41 0 38 41 air
+execute @a[tag=hasBarbarian,x=-7,y=37,z=35,dy=1] ~ ~ ~ scoreboard players tag @s remove hasBarbarian
+
 scoreboard players set @a[x=7,y=37,z=35,dy=1] class 2
+scoreboard players tag @a[x=7,y=37,z=35,dy=1] add hasHunter
+
+execute @a[tag=hasHunter] ~ ~ ~ fill 6 37 35 6 38 35 glass
+execute @a[tag=hasHunter,x=0,y=37,z=42,dy=1] ~ ~ ~ fill 6 37 35 6 38 35 air
+execute @a[tag=hasHunter,x=0,y=37,z=42,dy=1] ~ ~ ~ scoreboard players tag @s remove hasHunter
+execute @a[tag=hasHunter,x=-7,y=37,z=35,dy=1] ~ ~ ~ fill 6 37 35 6 38 35 air
+execute @a[tag=hasHunter,x=-7,y=37,z=35,dy=1] ~ ~ ~ scoreboard players tag @s remove hasHunter
+
 scoreboard players set @a[x=-7,y=37,z=35,dy=1] class 4
+scoreboard players tag @a[x=-7,y=37,z=35,dy=1] add hasRogue
+
+execute @a[tag=hasRogue] ~ ~ ~ fill -6 37 35 -6 38 35 glass
+execute @a[tag=hasRogue,x=0,y=37,z=42,dy=1] ~ ~ ~ fill -6 37 35 -6 38 35 air
+execute @a[tag=hasRogue,x=0,y=37,z=42,dy=1] ~ ~ ~ scoreboard players tag @s remove hasRogue
+execute @a[tag=hasRogue,x=7,y=37,z=35,dy=1] ~ ~ ~ fill -6 37 35 -6 38 35 air
+execute @a[tag=hasRogue,x=7,y=37,z=35,dy=1] ~ ~ ~ scoreboard players tag @s remove hasRogue
+
+tp @a[x=0,y=37,z=42,dy=1] 0 37 35
+tp @a[x=7,y=37,z=35,dy=1] 0 37 35
+tp @a[x=-7,y=37,z=35,dy=1] 0 37 35
 
 ## [The Match Itself] ##
 scoreboard players add @a class 0
@@ -53,6 +80,7 @@ scoreboard players tag @a[score_hasDied_min=1] remove inBattle
 clear @a[score_hasDied_min=1]
 scoreboard teams join Lobby @a[score_hasDied_min=1]
 scoreboard players set @a[score_hasDied_min=1] inGame 0
+scoreboard players set @a[score_hasDied_min=1] class 0
 scoreboard players set @a[score_hasDied_min=1] hasDied 0
 
 ## [New Player] ##
@@ -83,6 +111,6 @@ scoreboard teams join Lobby @a[score_leave_min=1]
 scoreboard players tag @a[score_leave_min=1] remove inBattle
 clear @a[score_leave_min=1]
 scoreboard players set @a[score_leave_min=1] inGame 0
-scoreboard players set @a[score_leave_min=1] hasDied 0
+scoreboard players set @a[score_leave_min=1] class 0
 tp @a[score_leave_min=1] 0 50 0 0 0
 scoreboard players set @a leave 0

@@ -36,6 +36,8 @@ replaceitem entity @a[tag=inBattle,score_class=3,score_class_min=3] slot.hotbar.
 #replaceitem entity @a[tag=inBattle,score_class=4,score_class_min=4] slot.armor.feet leather_boots 1 0 {Unbreakable:1}
 replaceitem entity @a[tag=inBattle,score_class=4,score_class_min=4] slot.hotbar.0 iron_sword 1 0 {Unbreakable:1,display:{Name:"Blade of the Tempest"},HideFlags:4}
 
+xp -31L @a[tag=inBattle]
+xp 30L @a[tag=inBattle]
 effect @a[tag=inBattle] health_boost 1000000 4 true
 effect @a[tag=inBattle] instant_health 1 100 true
 tp @r[tag=inBattle] 17 44 35 90 0

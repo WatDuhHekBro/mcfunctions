@@ -15,9 +15,9 @@ scoreboard players set @a[score_class=2,score_class_min=2,score_inGame_min=1,sco
 scoreboard players set @a[score_class=2,score_class_min=2,score_inGame_min=1,score_2p=1] 2pswitch2 0
 scoreboard players set @a[score_class=2,score_class_min=2,score_inGame_min=1,score_2p_min=3] 2p 0
 
-## [5 Seconds per Arrow] ##
-give @a[score_class=2,score_class_min=2,score_inGame_min=1,score_2ptimer_min=100] arrow 1 0
-scoreboard players set @a[score_class=2,score_class_min=2,score_inGame_min=1,score_2ptimer_min=100] 2ptimer 0
+## [3 Seconds per Arrow] ##
+give @a[score_class=2,score_class_min=2,score_inGame_min=1,score_2ptimer_min=60] arrow 1 0
+scoreboard players set @a[score_class=2,score_class_min=2,score_inGame_min=1,score_2ptimer_min=60] 2ptimer 0
 
 ## [Maximum of 2 Arrows] ##
 scoreboard players set @a[score_class=2,score_class_min=2,score_inGame_min=1] 2poverflow 1 {Inventory:[{id:"minecraft:arrow",Count:3b}]}
