@@ -23,6 +23,23 @@ execute @e[type=Armor_Stand,name=Queue,score_playerCount_min=2,score_battleInPro
 scoreboard players tag @a[tag=inBattle] remove queueEnabled
 scoreboard players tag @a[tag=inBattle] remove queueSwitch
 
+## [Launch Pads] ##
+scoreboard teams join Battle @a[x=0,y=50,z=14,dx=0,dy=0,dz=0]
+tp @a[x=0,y=50,z=14,dx=0,dy=0,dz=0] 0 44 18
+
+scoreboard teams join Battle @a[x=21,y=50,z=35,dx=0,dy=0,dz=0]
+tp @a[x=21,y=50,z=35,dx=0,dy=0,dz=0] 17 44 35
+
+scoreboard teams join Battle @a[x=0,y=50,z=56,dx=0,dy=0,dz=0]
+tp @a[x=0,y=50,z=56,dx=0,dy=0,dz=0] 0 44 52
+
+scoreboard teams join Battle @a[x=-21,y=50,z=35,dx=0,dy=0,dz=0]
+tp @a[x=-21,y=50,z=35,dx=0,dy=0,dz=0] -17 44 35
+
+## [Spawn] ##
+replaceitem entity @a[x=0,y=50,z=0,dx=0,dy=0,dz=0] slot.hotbar.0 iron_sword 1 0 {Unbreakable:1,display:{Name:"Sword"},HideFlags:4}
+replaceitem entity @a[x=0,y=50,z=0,dx=0,dy=0,dz=0] slot.hotbar.1 bow 1 0 {Unbreakable:1,display:{Name:"Bow"},HideFlags:4}
+
 ## [Health and Mana] ##
 xp -1L @a[lm=31]
 xp 1L @a[score_generalMP_min=20]

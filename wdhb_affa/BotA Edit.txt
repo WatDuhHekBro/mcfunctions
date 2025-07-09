@@ -46,3 +46,5 @@ Charge
 Create one variable for each ability slot.
 
 On second thought, maybe everything should just be free, then coins would be for cosmetics (hats & particles).
+
+Create some tutorial area. It is needed.
